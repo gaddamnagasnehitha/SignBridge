@@ -1,0 +1,10 @@
+# Versions are pinned conservatively because MediaPipe's legacy `mp.solutions`
+# API, TensorFlow and protobuf are sensitive to each other. Run `python check_env.py`
+# after installing. Use Python 3.10 or 3.11 for the least friction.
+# NOTE: do NOT add opencv-python separately - mediapipe already installs OpenCV.
+mediapipe==0.10.14
+tensorflow>=2.15,<2.18
+numpy<2
+scikit-learn>=1.3
+gradio>=4.44,<6
+gTTS>=2.5
