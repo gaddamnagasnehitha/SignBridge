@@ -1,3 +1,15 @@
+---
+title: SignBridge
+emoji: 🤟
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 5.50.0
+app_file: app.py
+python_version: "3.12"
+pinned: false
+---
+
 # SignBridge – Real-Time Sign Language to Text and Speech Translator
 
 Translates **Indian Sign Language (ISL)** gestures into text and speech in the browser.
